@@ -4,49 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sem6TT</title>
+    <title>Time Table</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
         table {
             border: solid;
             border-spacing: 0;
-            margin: 90px;
+            margin-top: 90px;
         }
+
         th {
-            border: black solid 1px;
+            border: 1px solid #000;
             height: 50px;
             width: 100px;
         }
+
         td {
-            border: black solid 1px;
+            border: 1px solid #000;
             text-align: center;
             color: white;
         }
-        .pt{
-            background-color:maroon ;
+
+        .pt {
+            background-color: maroon;
         }
-        .lab{
+
+        .lab {
             background-color: crimson;
         }
-        .cn{
+
+        .cn {
             background-color: cornflowerblue;
         }
-        .os{
-            background-color:darkviolet ;
+
+        .os {
+            background-color: darkviolet;
         }
-        .dbms{
+
+        .dbms {
             background-color: coral;
         }
-        .se{
+
+        .se {
             background-color: darkcyan;
         }
-        .lt{
-            background-color:darkgoldenrod ;
+
+        .lt {
+            background-color: darkgoldenrod;
         }
-        .break{
+
+        .break {
             background-color: khaki;
             color: black;
         }
-        .head{
+
+        .head {
             background-color: darkgray;
         }
     </style>
@@ -58,30 +80,30 @@
             <td class="break">Day/Period</td>
             <th>1 <br> 09:10</th>
             <th>2 <br> 09:55</th>
-            <th>10:40</th>
+            <th>10:45</th>
             <th>3 <br> 10:55</th>
-            <th>4 <br> 11:40</th>
-            <th>12:20</th>
-            <th>5 <br> 01:05</th>
-            <th>6 <br> 01:50</th>
-            <th>02:35</th>
-            <th>7 <br> 02:40</th>
+            <th>4 <br> 11:45</th>
+            <th>12:45</th>
+            <th>5 <br> 01:25</th>
+            <th>6 <br> 02:00</th>
+            <th>02:45</th>
+            <th>7 <br> 02:55</th>
             <th>8 <br> 03:30</th>
         </tr>
         <tr>
             <th class="head">MON</th>
             <td class="dbms">DBMS</td>
             <td class="cn">CN</td>
-            <th class="break" rowspan="6">
+            <th class="break" rowspan="5">
                 <h2> B <br> R <br> E <br> A <br> K </h2>
             </th>
             <td class="se">SE</td>
             <td class="lt">LT</td>
-            <th class="break" rowspan="6">
+            <th class="break" rowspan="5">
                 <h2> L <br>U <br> N <br> C <br> H </h2>
             </th>
             <td class="lab" colspan="2">DBMS/OS LAB</td>
-            <th class="break" rowspan="6">
+            <th class="break" rowspan="5">
                 <h2> B <br> R <br> E <br> A <br> K </h2>
             </th>
             <td class="os">OS</td>
